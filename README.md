@@ -4,9 +4,9 @@ A static legal website for the Selenite Discord bot, covering the public Terms o
 
 Live pages:
 
-- Home: `https://lordghosty.github.io/selenite-legal/`
-- Terms of Use: `https://lordghosty.github.io/selenite-legal/terms/`
-- Privacy Policy: `https://lordghosty.github.io/selenite-legal/privacy/`
+- Home: `https://quantum-sharkware.github.io/selenite-legal/`
+- Terms of Use: `https://quantum-sharkware.github.io/selenite-legal/terms/`
+- Privacy Policy: `https://quantum-sharkware.github.io/selenite-legal/privacy/`
 
 ## Overview
 
