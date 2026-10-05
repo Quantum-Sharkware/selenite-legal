@@ -163,9 +163,9 @@ test("GitHub Pages workflow targets only the standalone public repository path",
     "utf8",
   );
 
-  assert.match(workflow, /SITE_URL: https:\/\/lordghosty\.github\.io\/selenite-legal\//);
+  assert.match(workflow, /SITE_URL: https:\/\/quantum-sharkware\.github\.io\/selenite-legal\//);
   assert.match(workflow, /NEXT_PUBLIC_BASE_PATH: \/selenite-legal/);
-  assert.match(workflow, /npm audit --audit-level=high/);
+  assert.match(workflow, /npm audit --omit=dev --audit-level=high/);
   assert.doesNotMatch(workflow, /working-directory: legal-site/);
   assert.doesNotMatch(workflow, /\/SELENITE\//);
 });

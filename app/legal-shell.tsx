@@ -21,7 +21,7 @@ export function LegalFooter() {
   return (
     <footer className="site-footer shell">
       <div><span className="footer-wordmark">SELENITE</span><p>Independent Discord application. Not affiliated with or endorsed by Discord Inc.</p></div>
-      <div className="footer-links"><a href={internalHref("terms")}>Terms of Use</a><a href={internalHref("privacy")}>Privacy Policy</a><a href={SELENITE_INVITE_URL} target="_blank" rel="noreferrer">Invite Selenite</a><a href="https://github.com/LordGhosty/selenite-legal" rel="noreferrer">Project repository</a></div>
+      <div className="footer-links"><a href={internalHref("terms")}>Terms of Use</a><a href={internalHref("privacy")}>Privacy Policy</a><a href={SELENITE_INVITE_URL} target="_blank" rel="noreferrer">Invite Selenite</a><a href="https://github.com/Quantum-Sharkware/selenite-legal" rel="noreferrer">Project repository</a></div>
     </footer>
   );
 }
